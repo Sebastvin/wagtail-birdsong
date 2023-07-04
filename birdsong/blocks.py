@@ -1,5 +1,5 @@
 from django.utils.html import mark_safe
-from wagtail.core import blocks
+from wagtail import blocks
 
 
 class UnwrappedStreamBlock(blocks.StreamBlock):
